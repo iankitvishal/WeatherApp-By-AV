@@ -50,8 +50,7 @@
          const apiKey= "7fb91792df92968b12615e1d878b36be";
     
         async function checkWeather(city){
-         //   console.log(ankit);
-         //   console.log("hello");
+
         
         const response = await fetch(apiUrl +city+ `&appid=${apiKey}`);
         var data = await response.json();
